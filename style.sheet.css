@@ -1,0 +1,444 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #2D2E2F;
+}
+.navbar-brand img {
+    width:120px;
+    padding: auto;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+}
+
+.phantom-logo {
+  width: 120px;
+}
+
+.navbar {
+    font-size: 120%;
+   padding: 50px !important; 
+}
+
+.nav-btn {
+  border: 7px orange solid;
+  margin: 0 2px;
+  border-radius: 10px;
+
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+.text-first h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  font-weight: 400;
+ align-content: center;
+}
+
+/*p {
+  padding: 10px;
+  margin: 25px 20px 10px 20px;
+}
+
+/* body{
+    
+} */
+
+ /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    padding-top: 2rem;
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  /* height: 32rem; */
+  background-color: #777;
+}
+.slide-image {
+  position: auto;
+  top: 0;
+  height: 100% !important;
+  width:  100% !important; 
+  
+}
+
+/*-------------------------------------------------- */
+/* image */
+/* .card-img-top {
+  width: 20%;
+  height: 20%;
+} */
+.heading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-paragraph{
+  padding: 50px;
+  color: white;
+  font-size: 120%;
+}
+.text-first h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 20px;
+  font-weight: 400;
+ align-content: center;
+  
+}
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+ 
+}
+.how-section1 h4 {
+  color: #FA9866;
+  font-weight: bold;
+  font-size: 30px;
+ 
+}
+.how-section1 .subheading{
+  color: #DBA546;
+  font-size: 20px;
+}
+.how-section1 .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 100%;
+}
+
+/* Style the middle column */
+.middle {
+background-color: #DBA546;
+}
+
+
+
+.content {
+  position: auto; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */ 
+  background:  #FA9866;
+  border: 20px solid  #FA9866;
+  color:  #FA9866; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */
+  font-stretch: normal;
+}
+
+
+/* .card-body {
+  width: 50%; 
+} */
+
+.banner{
+  padding: 30px 0;
+  margin-bottom:30px ;
+}
+
+    
+.banner-text {
+
+  color: white;
+  font-weight: bold;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-frame {
+  height: 98%;
+  width: 80%;
+  border: 10px solid #DBA546; 
+  margin: auto;
+}
+
+
+
+.main-text {
+  margin: 0 10%;
+}
+/* .cafe-menu {
+  padding-left: 5vw;
+  padding-right: 5vw;
+} */
+
+.menu-image {
+  height: 30vh;
+  width: 30vh;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black ;
+  border-radius: 20%;
+  background-color: #ffb608;
+}
+.subheading-cafe{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.menu-details > h4 {
+  text-align: center;
+}
+#bkc-image{
+  background-color:white;
+}
+.bkc-paragraph{
+  padding: 10px;
+  margin:0px 0px 0px 0px;
+}
+/* expandable images */
+.img-link {
+  font-size: 7em; 
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.img-link img
+{
+  height: 8rem;
+}
+.img-link:active img, .img-link:focus img
+{
+  height: 16rem;
+}
+
+
+#container-card {
+  padding:20px;
+}
+  
+/* Style the footer */
+
+  /* footer { grid-area: footer;
+  background-color:#FA9866;
+  padding: 10px;
+  text-align: center; */
+
+
+.footer > p {
+  color: white;
+  
+}
+.foot-color{
+  background-color: #dba546 ;
+}
+
+footer */
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+ 
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #C13584;
+  color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+/* Contact box */
+#contact-form {
+  padding-top: 10px;
+}
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding-top: 25px;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  background-color:grey;
+  border-radius:10px
+}
+
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+
+.contact-container {
+  
+  padding: 5%;
+  margin: 10px;
+}
+.fa-phone{
+color: #FA9866;
+}
+.fa-envelope{
+  color:#FA9866;
+}
+.fa-map-marker-alt{
+  color:#FA9866;
+}
+#map-container {
+  height: 305px;
+  border: black 2px solid;
+  width: 80%;
+  margin: 10px;
+
+}
+
+/* Bee keeping course button */
+.btn-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.booking-btn{
+  margin: 20px 0;
+  
+}

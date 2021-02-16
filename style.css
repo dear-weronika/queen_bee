@@ -1,0 +1,205 @@
+
+.button {
+  color: white;
+  align-content: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1000px;
+  border: #DBA546;  
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+    padding-top: 120%;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+}
+   
+ /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: auto;
+  top: 0;
+  height: 100% !important;
+  width:  100% !important;
+  border: 35px solid   #FA9866;
+}
+
+/* -------------------------------------------------- */ 
+/* image */
+
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin:  center; /* Center it */
+}
+
+.container .content {
+  position: auto; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  background:   #FA9866;
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */
+}
+
+h1 {
+  color:  #FA9866; /*!important; */
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+    
+.ptextfirst {
+  color: red;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.h1 {
+  color: #FFB608;  
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.p {
+  background: #FA9866;   
+  text-align:center;
+}
+    
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 80px; /* 5px rounded corners */
+  background:   #FA9866
+}
+
+.image-shop {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+    
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}  
+    
+
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color:#FA9866;
+  padding: 10px;
+  text-align: center;
+}
+
+/* footer */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #C13584;
+  color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* </style>
+</head> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
