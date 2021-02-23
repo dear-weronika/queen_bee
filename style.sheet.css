@@ -36,12 +36,13 @@ body{
 .navbar-toggler {
     border: none !important;
     outline: none !important;
+    margin: 35px;
 }
 
 .text-first h1{
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 20px;
+  padding: 10px;
   font-weight: 400;
  align-content: center;
 }
@@ -76,7 +77,7 @@ body{
 .slide-image {
   position: auto;
   top: 0;
-  height: 100% !important;
+  height: 120% !important;
   width:  100% !important; 
   
 }
@@ -89,19 +90,23 @@ body{
 } */
 .heading{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
 }
+
 .main-paragraph{
-  padding: 50px;
+  padding: 30px;
   color: white;
   font-size: 120%;
+  text-align: center;
 }
-.text-first h1{
+/*.text-first h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 20px;
   font-weight: 400;
  align-content: center;
   
-}
+}*/
 .how-section1{
   margin-top:-15%;
   padding: 10%;
@@ -208,13 +213,33 @@ background-color: #DBA546;
 .menu-details > h4 {
   text-align: center;
 }
+/*beekeeping course*/
+h3{
+  text-align: center;
+  
+}
+.list-unstyled{
+  text-align: center;
+  padding-bottom: 40px;
+}
 #bkc-image{
   background-color:white;
 }
 .bkc-paragraph{
-  padding: 10px;
+ text-align: center;
   margin:0px 0px 0px 0px;
+  padding-bottom: 20px;
 }
+  .booking-btn{
+    background-color: #dba546;
+ color: white;
+ border:20px #dba546;
+ border-radius: 5px;
+ align-content: center;
+ width: auto;
+  }
+
+
 /* expandable images */
 .img-link {
   font-size: 7em; 
@@ -246,6 +271,7 @@ background-color: #DBA546;
 
 .footer > p {
   color: white;
+  text-align: center;
   
 }
 .foot-color{
@@ -254,12 +280,12 @@ background-color: #DBA546;
 
 footer */
 .fa {
-  padding: 10px;
-  font-size: 25px;
+  padding: 20px;
+  font-size: 100%;
   width: 50px;
   text-align: center;
   text-decoration: none;
-  border-radius: 20%;
+  margin: 5px 2px;
  
 }
 
@@ -272,25 +298,25 @@ footer */
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
+ 
   color: white;
 }
 
 /* Instagram */
 .fa-instagram {
-  background: #C13584;
-  color: white;
+ 
+  color:white;
 }
 
-/* Youtube */
+/* YouTube */
 .fa-youtube {
-  background: #FF0000;
-  color: white;
+ 
+  color:white;
 }
 
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
+ 
   color: white;
 }
 
@@ -337,6 +363,7 @@ footer */
 #fs-frm #card-element {
   border: 1px solid rgba(0,0,0,0.2);
   background-color: rgba(255,255,255,0.9);
+  color: black;
   padding: .75em 1rem;
   margin-bottom: 1.5rem;
 }
@@ -369,7 +396,7 @@ footer */
 }
 #fs-frm [type="submit"],
 #fs-frm [type="reset"] {
-  background-color:grey;
+  background-color: #FA9866;
   border-radius:10px
 }
 
@@ -409,7 +436,9 @@ footer */
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
 }
-
+.para-contact{
+  text-align: center;
+}
 .contact-container {
   
   padding: 5%;
