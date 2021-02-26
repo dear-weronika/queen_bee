@@ -230,14 +230,7 @@ h3{
   margin:0px 0px 0px 0px;
   padding-bottom: 20px;
 }
-  .booking-btn{
-    background-color: #dba546;
- color: white;
- border:20px #dba546;
- border-radius: 5px;
- align-content: center;
- width: auto;
-  }
+  
 
 
 /* expandable images */
@@ -453,6 +446,7 @@ color: #FA9866;
 .fa-map-marker-alt{
   color:#FA9866;
 }
+
 #map-container {
   height: 305px;
   border: black 2px solid;
