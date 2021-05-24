@@ -7,7 +7,7 @@ body{
 }
 .navbar-brand img {
     width:120px;
-    padding: auto;
+    margin: 0px auto;
 }
 
 .navbar-brand {
@@ -75,7 +75,7 @@ body{
   background-color: #777;
 }
 .slide-image {
-  position: auto;
+  position: absolute;
   top: 0;
   height: 120% !important;
   width:  100% !important; 
@@ -142,7 +142,7 @@ background-color: #DBA546;
 
 
 .content {
-  position: auto; /* Position the background text */
+  position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */ 
   background:  #FA9866;
   border: 20px solid  #FA9866;
@@ -271,7 +271,7 @@ h3{
   background-color: #dba546 ;
 }
 
-footer */
+footer 
 .fa {
   padding: 20px;
   font-size: 100%;
